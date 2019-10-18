@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF241F9F2236124700D1CBA5 /* BackgroundTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF241F9E2236124700D1CBA5 /* BackgroundTask.swift */; };
+		DF241FA12236124D00D1CBA5 /* blank.wav in Resources */ = {isa = PBXBuildFile; fileRef = DF241FA02236124D00D1CBA5 /* blank.wav */; };
+		DF241FA322365CE500D1CBA5 /* SleepTrackerColorGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF241FA222365CE500D1CBA5 /* SleepTrackerColorGuide.swift */; };
+		DF241FA72237B29800D1CBA5 /* GoalbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF241FA62237B29800D1CBA5 /* GoalbarView.swift */; };
+		DF25146B222F92880062A130 /* GeneralConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25146A222F92880062A130 /* GeneralConstants.swift */; };
+		DF25146E222F974D0062A130 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25146D222F974D0062A130 /* Storyboard.swift */; };
+		DF251470222FD2010062A130 /* AttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25146F222FD2010062A130 /* AttributedString.swift */; };
+		DF2514722230DBC20062A130 /* STNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2514712230DBC20062A130 /* STNotificationCenter.swift */; };
+		DF33F88722263F2000D0DB87 /* SleepRecordHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33F88622263F1F00D0DB87 /* SleepRecordHeader.swift */; };
+		DF33F88E22264D3E00D0DB87 /* Interval+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33F88822264D3E00D0DB87 /* Interval+CoreDataClass.swift */; };
+		DF33F88F22264D3E00D0DB87 /* Interval+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33F88922264D3E00D0DB87 /* Interval+CoreDataProperties.swift */; };
+		DF33F89022264D3E00D0DB87 /* Sleep+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33F88A22264D3E00D0DB87 /* Sleep+CoreDataClass.swift */; };
+		DF33F89122264D3E00D0DB87 /* Sleep+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33F88B22264D3E00D0DB87 /* Sleep+CoreDataProperties.swift */; };
+		DF33F8962226552C00D0DB87 /* Session+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33F8942226552C00D0DB87 /* Session+CoreDataClass.swift */; };
+		DF33F8972226552C00D0DB87 /* Session+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33F8952226552C00D0DB87 /* Session+CoreDataProperties.swift */; };
+		DF363301222CEF04003BA128 /* BackgroundTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF363300222CEF04003BA128 /* BackgroundTaskManager.swift */; };
+		DF363303222D222C003BA128 /* STButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF363302222D222C003BA128 /* STButton.swift */; };
+		DF4D3A8322255932001322AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3A8222255932001322AE /* AppDelegate.swift */; };
+		DF4D3A8D22255933001322AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4D3A8C22255933001322AE /* Assets.xcassets */; };
+		DF4D3A9022255933001322AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4D3A8E22255933001322AE /* LaunchScreen.storyboard */; };
+		DF4D3AB0222559C3001322AE /* SleepTrackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3A99222559C2001322AE /* SleepTrackVC.swift */; };
+		DF4D3AB2222559C3001322AE /* SetGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3A9B222559C2001322AE /* SetGoalVC.swift */; };
+		DF4D3AB3222559C3001322AE /* Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3A9D222559C2001322AE /* Sleep.swift */; };
+		DF4D3AB6222559C3001322AE /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AA1222559C3001322AE /* DatePickerView.swift */; };
+		DF4D3AB7222559C3001322AE /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AA2222559C3001322AE /* SleepView.swift */; };
+		DF4D3AB8222559C3001322AE /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AA3222559C3001322AE /* ProgressCircle.swift */; };
+		DF4D3AB9222559C3001322AE /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AA4222559C3001322AE /* BaseVC.swift */; };
+		DF4D3ABA222559C3001322AE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AA6222559C3001322AE /* CoreDataManager.swift */; };
+		DF4D3ABB222559C3001322AE /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AA7222559C3001322AE /* UserDefault.swift */; };
+		DF4D3ABD222559C3001322AE /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AA9222559C3001322AE /* TimeManager.swift */; };
+		DF4D3ABE222559C3001322AE /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AAA222559C3001322AE /* MotionManager.swift */; };
+		DF4D3ABF222559C3001322AE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AAB222559C3001322AE /* LocationManager.swift */; };
+		DF4D3AC0222559C3001322AE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AAC222559C3001322AE /* Extensions.swift */; };
+		DF4D3AC1222559C3001322AE /* SleepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AAE222559C3001322AE /* SleepCell.swift */; };
+		DF4D3AC422255A1F001322AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4D3AC222255A1F001322AE /* Main.storyboard */; };
+		DF4D3AC722255B78001322AE /* SleepData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AC522255B78001322AE /* SleepData.xcdatamodeld */; };
+		DF4D3AE222259EDF001322AE /* SleepRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AE122259EDF001322AE /* SleepRecordVC.swift */; };
+		DF4D3AE422259F20001322AE /* BarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AE322259F20001322AE /* BarGraphView.swift */; };
+		DF4D3AE622259F42001322AE /* GraphCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AE522259F42001322AE /* GraphCell.swift */; };
+		DF4D3AE822259F80001322AE /* BarProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D3AE722259F80001322AE /* BarProgressView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF241F9E2236124700D1CBA5 /* BackgroundTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundTask.swift; sourceTree = "<group>"; };
+		DF241FA02236124D00D1CBA5 /* blank.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blank.wav; sourceTree = "<group>"; };
+		DF241FA222365CE500D1CBA5 /* SleepTrackerColorGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerColorGuide.swift; sourceTree = "<group>"; };
+		DF241FA62237B29800D1CBA5 /* GoalbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalbarView.swift; sourceTree = "<group>"; };
+		DF25146A222F92880062A130 /* GeneralConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralConstants.swift; sourceTree = "<group>"; };
+		DF25146D222F974D0062A130 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		DF25146F222FD2010062A130 /* AttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedString.swift; sourceTree = "<group>"; };
+		DF2514712230DBC20062A130 /* STNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STNotificationCenter.swift; sourceTree = "<group>"; };
+		DF33F88622263F1F00D0DB87 /* SleepRecordHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepRecordHeader.swift; sourceTree = "<group>"; };
+		DF33F88822264D3E00D0DB87 /* Interval+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Interval+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DF33F88922264D3E00D0DB87 /* Interval+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Interval+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DF33F88A22264D3E00D0DB87 /* Sleep+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sleep+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DF33F88B22264D3E00D0DB87 /* Sleep+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sleep+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DF33F8942226552C00D0DB87 /* Session+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Session+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DF33F8952226552C00D0DB87 /* Session+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Session+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DF363300222CEF04003BA128 /* BackgroundTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTaskManager.swift; sourceTree = "<group>"; };
+		DF363302222D222C003BA128 /* STButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STButton.swift; sourceTree = "<group>"; };
+		DF4D3A7F22255932001322AE /* SleepTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4D3A8222255932001322AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF4D3A8C22255933001322AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF4D3A8F22255933001322AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF4D3A9122255933001322AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4D3A99222559C2001322AE /* SleepTrackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepTrackVC.swift; sourceTree = "<group>"; };
+		DF4D3A9B222559C2001322AE /* SetGoalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetGoalVC.swift; sourceTree = "<group>"; };
+		DF4D3A9D222559C2001322AE /* Sleep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sleep.swift; sourceTree = "<group>"; };
+		DF4D3AA1222559C3001322AE /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		DF4D3AA2222559C3001322AE /* SleepView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		DF4D3AA3222559C3001322AE /* ProgressCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressCircle.swift; sourceTree = "<group>"; };
+		DF4D3AA4222559C3001322AE /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		DF4D3AA6222559C3001322AE /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		DF4D3AA7222559C3001322AE /* UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		DF4D3AA9222559C3001322AE /* TimeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
+		DF4D3AAA222559C3001322AE /* MotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		DF4D3AAB222559C3001322AE /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DF4D3AAC222559C3001322AE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DF4D3AAE222559C3001322AE /* SleepCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepCell.swift; sourceTree = "<group>"; };
+		DF4D3AC322255A1F001322AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF4D3AC622255B78001322AE /* SleepData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SleepData.xcdatamodel; sourceTree = "<group>"; };
+		DF4D3AE122259EDF001322AE /* SleepRecordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepRecordVC.swift; sourceTree = "<group>"; };
+		DF4D3AE322259F20001322AE /* BarGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarGraphView.swift; sourceTree = "<group>"; };
+		DF4D3AE522259F42001322AE /* GraphCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCell.swift; sourceTree = "<group>"; };
+		DF4D3AE722259F80001322AE /* BarProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF4D3A7C22255932001322AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF251469222F92650062A130 /* MISC */ = {
+			isa = PBXGroup;
+			children = (
+				DF241FA02236124D00D1CBA5 /* blank.wav */,
+				DF25146A222F92880062A130 /* GeneralConstants.swift */,
+			);
+			path = MISC;
+			sourceTree = "<group>";
+		};
+		DF25146C222F97390062A130 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF4D3AAC222559C3001322AE /* Extensions.swift */,
+				DF25146D222F974D0062A130 /* Storyboard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DF4D3A7622255932001322AE = {
+			isa = PBXGroup;
+			children = (
+				DF4D3A8122255932001322AE /* SleepTracker */,
+				DF4D3A8022255932001322AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF4D3A8022255932001322AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF4D3A7F22255932001322AE /* SleepTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF4D3A8122255932001322AE /* SleepTracker */ = {
+			isa = PBXGroup;
+			children = (
+				DF4D3A8222255932001322AE /* AppDelegate.swift */,
+				DF4D3AA4222559C3001322AE /* BaseVC.swift */,
+				DF25146C222F97390062A130 /* Extensions */,
+				DF251469222F92650062A130 /* MISC */,
+				DF4D3AD422255B99001322AE /* CoreData */,
+				DF4D3A97222559C2001322AE /* Controller */,
+				DF4D3A9E222559C3001322AE /* IBDesignables */,
+				DF4D3AA5222559C3001322AE /* Manager */,
+				DF4D3A9C222559C2001322AE /* Model */,
+				DF4D3AAD222559C3001322AE /* Views */,
+				DF4D3A8C22255933001322AE /* Assets.xcassets */,
+				DF4D3A8E22255933001322AE /* LaunchScreen.storyboard */,
+				DF4D3AC222255A1F001322AE /* Main.storyboard */,
+				DF4D3A9122255933001322AE /* Info.plist */,
+				DF4D3AC522255B78001322AE /* SleepData.xcdatamodeld */,
+			);
+			path = SleepTracker;
+			sourceTree = "<group>";
+		};
+		DF4D3A97222559C2001322AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF4D3AE122259EDF001322AE /* SleepRecordVC.swift */,
+				DF4D3A99222559C2001322AE /* SleepTrackVC.swift */,
+				DF4D3A9B222559C2001322AE /* SetGoalVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF4D3A9C222559C2001322AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF4D3A9D222559C2001322AE /* Sleep.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF4D3A9E222559C3001322AE /* IBDesignables */ = {
+			isa = PBXGroup;
+			children = (
+				DF4D3AA1222559C3001322AE /* DatePickerView.swift */,
+				DF4D3AA2222559C3001322AE /* SleepView.swift */,
+				DF4D3AA3222559C3001322AE /* ProgressCircle.swift */,
+			);
+			path = IBDesignables;
+			sourceTree = "<group>";
+		};
+		DF4D3AA5222559C3001322AE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DF4D3AA6222559C3001322AE /* CoreDataManager.swift */,
+				DF4D3AA7222559C3001322AE /* UserDefault.swift */,
+				DF4D3AA9222559C3001322AE /* TimeManager.swift */,
+				DF241F9E2236124700D1CBA5 /* BackgroundTask.swift */,
+				DF4D3AAA222559C3001322AE /* MotionManager.swift */,
+				DF4D3AAB222559C3001322AE /* LocationManager.swift */,
+				DF363300222CEF04003BA128 /* BackgroundTaskManager.swift */,
+				DF25146F222FD2010062A130 /* AttributedString.swift */,
+				DF2514712230DBC20062A130 /* STNotificationCenter.swift */,
+				DF241FA222365CE500D1CBA5 /* SleepTrackerColorGuide.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		DF4D3AAD222559C3001322AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF4D3AE322259F20001322AE /* BarGraphView.swift */,
+				DF33F88622263F1F00D0DB87 /* SleepRecordHeader.swift */,
+				DF4D3AE722259F80001322AE /* BarProgressView.swift */,
+				DF4D3AE522259F42001322AE /* GraphCell.swift */,
+				DF4D3AAE222559C3001322AE /* SleepCell.swift */,
+				DF363302222D222C003BA128 /* STButton.swift */,
+				DF241FA62237B29800D1CBA5 /* GoalbarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF4D3AD422255B99001322AE /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DF33F8942226552C00D0DB87 /* Session+CoreDataClass.swift */,
+				DF33F8952226552C00D0DB87 /* Session+CoreDataProperties.swift */,
+				DF33F88822264D3E00D0DB87 /* Interval+CoreDataClass.swift */,
+				DF33F88922264D3E00D0DB87 /* Interval+CoreDataProperties.swift */,
+				DF33F88A22264D3E00D0DB87 /* Sleep+CoreDataClass.swift */,
+				DF33F88B22264D3E00D0DB87 /* Sleep+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF4D3A7E22255932001322AE /* SleepTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4D3A9422255933001322AE /* Build configuration list for PBXNativeTarget "SleepTracker" */;
+			buildPhases = (
+				DF4D3A7B22255932001322AE /* Sources */,
+				DF4D3A7C22255932001322AE /* Frameworks */,
+				DF4D3A7D22255932001322AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepTracker;
+			productName = SleepTracker;
+			productReference = DF4D3A7F22255932001322AE /* SleepTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF4D3A7722255932001322AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Vikhyath;
+				TargetAttributes = {
+					DF4D3A7E22255932001322AE = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DF4D3A7A22255932001322AE /* Build configuration list for PBXProject "SleepTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF4D3A7622255932001322AE;
+			productRefGroup = DF4D3A8022255932001322AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF4D3A7E22255932001322AE /* SleepTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF4D3A7D22255932001322AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4D3A9022255933001322AE /* LaunchScreen.storyboard in Resources */,
+				DF241FA12236124D00D1CBA5 /* blank.wav in Resources */,
+				DF4D3A8D22255933001322AE /* Assets.xcassets in Resources */,
+				DF4D3AC422255A1F001322AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF4D3A7B22255932001322AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF33F88E22264D3E00D0DB87 /* Interval+CoreDataClass.swift in Sources */,
+				DF4D3AB7222559C3001322AE /* SleepView.swift in Sources */,
+				DF2514722230DBC20062A130 /* STNotificationCenter.swift in Sources */,
+				DF241F9F2236124700D1CBA5 /* BackgroundTask.swift in Sources */,
+				DF4D3AE222259EDF001322AE /* SleepRecordVC.swift in Sources */,
+				DF33F89122264D3E00D0DB87 /* Sleep+CoreDataProperties.swift in Sources */,
+				DF363301222CEF04003BA128 /* BackgroundTaskManager.swift in Sources */,
+				DF4D3AC0222559C3001322AE /* Extensions.swift in Sources */,
+				DF4D3ABB222559C3001322AE /* UserDefault.swift in Sources */,
+				DF241FA322365CE500D1CBA5 /* SleepTrackerColorGuide.swift in Sources */,
+				DF4D3ABD222559C3001322AE /* TimeManager.swift in Sources */,
+				DF4D3AB2222559C3001322AE /* SetGoalVC.swift in Sources */,
+				DF4D3AC1222559C3001322AE /* SleepCell.swift in Sources */,
+				DF4D3AB0222559C3001322AE /* SleepTrackVC.swift in Sources */,
+				DF33F88722263F2000D0DB87 /* SleepRecordHeader.swift in Sources */,
+				DF251470222FD2010062A130 /* AttributedString.swift in Sources */,
+				DF25146B222F92880062A130 /* GeneralConstants.swift in Sources */,
+				DF4D3AB6222559C3001322AE /* DatePickerView.swift in Sources */,
+				DF363303222D222C003BA128 /* STButton.swift in Sources */,
+				DF4D3AE822259F80001322AE /* BarProgressView.swift in Sources */,
+				DF4D3AB9222559C3001322AE /* BaseVC.swift in Sources */,
+				DF4D3AE622259F42001322AE /* GraphCell.swift in Sources */,
+				DF25146E222F974D0062A130 /* Storyboard.swift in Sources */,
+				DF4D3A8322255932001322AE /* AppDelegate.swift in Sources */,
+				DF33F8972226552C00D0DB87 /* Session+CoreDataProperties.swift in Sources */,
+				DF4D3ABE222559C3001322AE /* MotionManager.swift in Sources */,
+				DF4D3AB8222559C3001322AE /* ProgressCircle.swift in Sources */,
+				DF4D3AE422259F20001322AE /* BarGraphView.swift in Sources */,
+				DF241FA72237B29800D1CBA5 /* GoalbarView.swift in Sources */,
+				DF33F88F22264D3E00D0DB87 /* Interval+CoreDataProperties.swift in Sources */,
+				DF4D3ABA222559C3001322AE /* CoreDataManager.swift in Sources */,
+				DF33F89022264D3E00D0DB87 /* Sleep+CoreDataClass.swift in Sources */,
+				DF4D3AC722255B78001322AE /* SleepData.xcdatamodeld in Sources */,
+				DF4D3ABF222559C3001322AE /* LocationManager.swift in Sources */,
+				DF33F8962226552C00D0DB87 /* Session+CoreDataClass.swift in Sources */,
+				DF4D3AB3222559C3001322AE /* Sleep.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF4D3A8E22255933001322AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF4D3A8F22255933001322AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF4D3AC222255A1F001322AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF4D3AC322255A1F001322AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF4D3A9222255933001322AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF4D3A9322255933001322AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF4D3A9522255933001322AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 849UP4BSN8;
+				INFOPLIST_FILE = SleepTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ymedia.SleepTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "IndiaDev*";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DF4D3A9622255933001322AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 849UP4BSN8;
+				INFOPLIST_FILE = SleepTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ymedia.SleepTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "IndiaDev*";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF4D3A7A22255932001322AE /* Build configuration list for PBXProject "SleepTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4D3A9222255933001322AE /* Debug */,
+				DF4D3A9322255933001322AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF4D3A9422255933001322AE /* Build configuration list for PBXNativeTarget "SleepTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4D3A9522255933001322AE /* Debug */,
+				DF4D3A9622255933001322AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF4D3AC522255B78001322AE /* SleepData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF4D3AC622255B78001322AE /* SleepData.xcdatamodel */,
+			);
+			currentVersion = DF4D3AC622255B78001322AE /* SleepData.xcdatamodel */;
+			path = SleepData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF4D3A7722255932001322AE /* Project object */;
+}
